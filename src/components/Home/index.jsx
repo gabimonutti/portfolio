@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import About from "../About";
 import Experience from "../Experience";
 import Footer from "../Footer";
@@ -16,6 +17,7 @@ export default function Home () {
                 <Projects />
                 <Footer />
             </div>
+            <Analytics />
         </div>
     );
 }
