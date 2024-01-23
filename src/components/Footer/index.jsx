@@ -13,17 +13,23 @@ export default function Footer() {
                 </span>
                 <ul class="flex flex-wrap items-center gap-x-4">
                     <li>
-                        <a href="https://www.linkedin.com/in/gabriel-monutti/">
+                        <a href="https://www.linkedin.com/in/gabriel-monutti/" 
+                        target="_blank"
+                        rel="noopener noreferrer">
                             <LinkedIn className="size-6 hover:scale-125 transition" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/gabimonutti">
+                        <a href="https://github.com/gabimonutti" 
+                        target="_blank"
+                        rel="noopener noreferrer">
                             <GitHub className="size-6 hover:scale-125 transition" />
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:gabimonutti1@gmail.com">
+                        <a href="mailto:gabimonutti1@gmail.com" 
+                        target="_blank"
+                        rel="noopener noreferrer">
                             <Gmail className="size-6 hover:scale-125 transition" />
                         </a>
                     </li>
