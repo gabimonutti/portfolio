@@ -4,7 +4,7 @@ import SocialPill from "../SocialPill";
 
 export default function ProjectItem ({ title, description, img, web, github, children }) {
     return (
-        <div className="border border-[#A6B1E1] rounded-md p-6
+        <div className="border border-[#A6B1E1] rounded-md p-6 mb-6
                         flex flex-col lg:flex-row">
             <div className="lg:w-1/2 pr-8
                             flex flex-col justify-between">
@@ -37,7 +37,7 @@ export default function ProjectItem ({ title, description, img, web, github, chi
                 </nav>
             </div>
             <a
-                className="lg:w-1/2"
+                className="lg:w-1/2 flex items-center"
                 href={web}
                 target="_blank"
                 rel="noopener noreferrer"
