@@ -33,7 +33,7 @@ export default function Experience () {
                     <TimelineItem 
                         date='2020 - Present'
                         title='Information Systems Engineering'
-                        description='Currently studying my fifth and last year of the career with 90% of the subjects approved.-Current average: 8.95'
+                        description='Currently studying my fifth and last year of the career with 90% of the subjects approved.'
                     />
                 </Timeline>
             </section>
