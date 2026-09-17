@@ -61,8 +61,8 @@ export function Portfolio() {
           GM
         </a>
         <nav className="desktop-nav" aria-label="Primary navigation">
-          <a href="#work">Work</a>
           <a href="#about">About</a>
+          <a href="#work">Work</a>
           <a href="#toolbox">Stack</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -79,8 +79,8 @@ export function Portfolio() {
               <Menu aria-hidden="true" />
             </summary>
             <nav aria-label="Mobile navigation">
-              <a href="#work">Work</a>
               <a href="#about">About</a>
+              <a href="#work">Work</a>
               <a href="#toolbox">Stack</a>
               <a href="#contact">Contact</a>
             </nav>

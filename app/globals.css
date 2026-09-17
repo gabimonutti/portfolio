@@ -15,6 +15,28 @@
   --header: color-mix(in srgb, var(--paper) 90%, transparent);
   --selection: #b7d9d2;
   --max-width: 1220px;
+
+  /* Type scale — micro labels through display headings */
+  --text-micro: 9px;
+  --text-caption: 10px;
+  --text-label: 11px;
+  --text-label-lg: 12px;
+  --text-sm: 13px;
+  --text-base: 14px;
+  --text-md: 15px;
+  --text-body: 16px;
+  --text-body-lg: 17px;
+  --text-lg: 18px;
+  --text-subhead: 22px;
+
+  --display-problem: clamp(1.25rem, 2.35vw, 1.9rem);
+  --display-statement: clamp(1.85rem, 3.75vw, 3.2rem);
+  --display-about: clamp(1.9rem, 3.5vw, 3.35rem);
+  --display-section: clamp(2.4rem, 4.6vw, 4.25rem);
+  --display-hero: clamp(3.2rem, 5.75vw, 4.5rem);
+  --display-project: clamp(3.1rem, 5.5vw, 5.25rem);
+  --display-featured: clamp(4rem, 6.75vw, 6.25rem);
+  --display-contact: clamp(3.35rem, 6.4vw, 5.4rem);
 }
 
 [data-theme="dark"] {
@@ -124,7 +146,7 @@ summary:focus-visible {
   border: 1px solid var(--line-strong);
   border-radius: 50%;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 13px;
+  font-size: var(--text-sm);
   font-weight: 650;
   letter-spacing: -0.04em;
   transition:
@@ -143,7 +165,7 @@ summary:focus-visible {
   display: flex;
   align-items: center;
   gap: 30px;
-  font-size: 14px;
+  font-size: var(--text-base);
 }
 
 .desktop-nav a,
@@ -169,7 +191,7 @@ summary:focus-visible {
   align-items: center;
   gap: 7px;
   min-height: 40px;
-  font-size: 14px;
+  font-size: var(--text-base);
   font-weight: 560;
 }
 
@@ -248,7 +270,7 @@ summary:focus-visible {
 .hero-name {
   margin: 0 0 24px;
   color: var(--ink);
-  font-size: 24px;
+  font-size: var(--text-subhead);
   font-weight: 620;
   letter-spacing: -0.03em;
 }
@@ -256,7 +278,7 @@ summary:focus-visible {
 .hero h1 {
   max-width: 760px;
   margin: 0;
-  font-size: clamp(3.5rem, 6.25vw, 5rem);
+  font-size: var(--display-hero);
   font-weight: 580;
   letter-spacing: -0.04em;
   line-height: 0.96;
@@ -273,7 +295,7 @@ summary:focus-visible {
   max-width: 650px;
   margin: 36px 0 0;
   color: var(--ink-secondary);
-  font-size: clamp(17px, 1.5vw, 19px);
+  font-size: clamp(var(--text-body-lg), 1.5vw, var(--text-lg));
   line-height: 1.65;
 }
 
@@ -295,7 +317,7 @@ summary:focus-visible {
   border-radius: 8px;
   background: var(--accent);
   color: var(--accent-contrast);
-  font-size: 14px;
+  font-size: var(--text-base);
   font-weight: 620;
   transition:
     transform 180ms cubic-bezier(0.16, 1, 0.3, 1),
@@ -319,7 +341,7 @@ summary:focus-visible {
   align-items: center;
   gap: 8px;
   border-bottom: 1px solid var(--line-strong);
-  font-size: 14px;
+  font-size: var(--text-base);
   font-weight: 580;
   transition:
     color 180ms ease,
@@ -338,7 +360,7 @@ summary:focus-visible {
   margin-top: 42px;
   color: var(--ink-muted);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 11px;
+  font-size: var(--text-label-lg);
   letter-spacing: 0.02em;
 }
 
@@ -380,7 +402,7 @@ summary:focus-visible {
   justify-content: space-between;
   color: var(--ink-muted);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: var(--text-caption);
   letter-spacing: 0.08em;
 }
 
@@ -434,21 +456,21 @@ summary:focus-visible {
 
 .system-node strong {
   font-family: var(--font-geist-mono), monospace;
-  font-size: 11px;
+  font-size: var(--text-label);
   letter-spacing: 0.06em;
 }
 
 .system-node small {
   margin-top: 3px;
   color: var(--ink-muted);
-  font-size: 9px;
+  font-size: var(--text-caption);
 }
 
 .node-index {
   margin-bottom: 6px;
   color: var(--accent);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 7px;
+  font-size: var(--text-micro);
   letter-spacing: 0.08em;
 }
 
@@ -494,7 +516,7 @@ summary:focus-visible {
   justify-content: space-between;
   color: var(--ink-muted);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 8px;
+  font-size: var(--text-caption);
 }
 
 .current-strip {
@@ -523,7 +545,7 @@ summary:focus-visible {
 .current-grid small {
   color: var(--ink-muted);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: var(--text-label);
 }
 
 .current-grid span {
@@ -533,7 +555,7 @@ summary:focus-visible {
 
 .current-grid strong {
   margin-bottom: 4px;
-  font-size: 14px;
+  font-size: var(--text-base);
   font-weight: 600;
 }
 
@@ -552,7 +574,7 @@ summary:focus-visible {
 
 .section-title-row h2 {
   margin: 0;
-  font-size: clamp(2.6rem, 5vw, 4.75rem);
+  font-size: var(--display-section);
   font-weight: 520;
   letter-spacing: -0.04em;
   line-height: 1;
@@ -562,7 +584,7 @@ summary:focus-visible {
   max-width: 520px;
   margin: 0 0 5px;
   color: var(--ink-secondary);
-  font-size: 15px;
+  font-size: var(--text-md);
   line-height: 1.6;
 }
 
@@ -576,7 +598,7 @@ summary:focus-visible {
 .about-lead {
   max-width: 760px;
   margin: 0;
-  font-size: clamp(2rem, 3.8vw, 3.65rem);
+  font-size: var(--display-about);
   font-weight: 430;
   letter-spacing: -0.04em;
   line-height: 1.12;
@@ -585,7 +607,7 @@ summary:focus-visible {
 .about-body {
   align-self: end;
   color: var(--ink-secondary);
-  font-size: 16px;
+  font-size: var(--text-body);
   line-height: 1.7;
 }
 
@@ -638,7 +660,7 @@ summary:focus-visible {
   background: var(--paper);
   color: var(--accent);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: var(--text-label);
 }
 
 .experience-period {
@@ -646,7 +668,7 @@ summary:focus-visible {
   padding: 42px 28px;
   color: var(--ink-muted);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 11px;
+  font-size: var(--text-label-lg);
 }
 
 .experience-company {
@@ -655,7 +677,7 @@ summary:focus-visible {
 
 .experience-company h3 {
   margin: 0;
-  font-size: 23px;
+  font-size: var(--text-subhead);
   font-weight: 600;
   letter-spacing: -0.025em;
 }
@@ -663,7 +685,7 @@ summary:focus-visible {
 .experience-company p {
   margin: 6px 0 0;
   color: var(--accent);
-  font-size: 13px;
+  font-size: var(--text-sm);
 }
 
 .experience-copy {
@@ -674,14 +696,14 @@ summary:focus-visible {
 .experience-copy > p {
   max-width: 660px;
   margin: 0;
-  font-size: 17px;
+  font-size: var(--text-body-lg);
   line-height: 1.6;
 }
 
 .experience-copy .experience-detail {
   margin-top: 16px;
   color: var(--ink-secondary);
-  font-size: 14px;
+  font-size: var(--text-base);
 }
 
 .technology-list {
@@ -699,7 +721,7 @@ summary:focus-visible {
   border-radius: 5px;
   color: var(--ink-secondary);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: var(--text-label);
   letter-spacing: 0.02em;
   transition:
     border-color 180ms ease,
@@ -755,7 +777,7 @@ summary:focus-visible {
   gap: 18px;
   color: var(--accent);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: var(--text-label);
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -772,7 +794,7 @@ summary:focus-visible {
 
 .project-copy h3 {
   margin: 28px 0 0;
-  font-size: clamp(3.4rem, 6vw, 5.8rem);
+  font-size: var(--display-project);
   font-weight: 550;
   letter-spacing: -0.04em;
   line-height: 0.92;
@@ -784,7 +806,7 @@ summary:focus-visible {
 }
 
 .project-hoyturnos .project-copy h3 {
-  font-size: clamp(4.4rem, 7.5vw, 7rem);
+  font-size: var(--display-featured);
 }
 
 .project-hoyturnos .project-visual {
@@ -794,7 +816,7 @@ summary:focus-visible {
 .project-description {
   max-width: 550px;
   margin: 30px 0 0;
-  font-size: 18px;
+  font-size: var(--text-body-lg);
   line-height: 1.55;
 }
 
@@ -802,7 +824,7 @@ summary:focus-visible {
   max-width: 550px;
   margin: 18px 0 0;
   color: var(--ink-secondary);
-  font-size: 14px;
+  font-size: var(--text-base);
   line-height: 1.65;
 }
 
@@ -865,7 +887,7 @@ summary:focus-visible {
   justify-content: space-between;
   margin-bottom: 14px;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: var(--text-caption);
 }
 
 .live-dot {
@@ -892,7 +914,7 @@ summary:focus-visible {
 
 .booking-slot time {
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: var(--text-label);
 }
 
 .booking-slot div {
@@ -901,13 +923,13 @@ summary:focus-visible {
 }
 
 .booking-slot strong {
-  font-size: 11px;
+  font-size: var(--text-label-lg);
 }
 
 .booking-slot span {
   margin-top: 3px;
   color: #68736f;
-  font-size: 9px;
+  font-size: var(--text-caption);
 }
 
 .booking-slot-muted {
@@ -1025,7 +1047,7 @@ summary:focus-visible {
   margin-left: auto;
   color: #747474;
   font-family: var(--font-geist-mono), monospace;
-  font-size: 7px;
+  font-size: var(--text-micro);
 }
 
 .paytor-window-secondary {
@@ -1050,7 +1072,7 @@ summary:focus-visible {
   border-radius: 6px;
   background: #fff;
   color: #111;
-  font-size: 10px;
+  font-size: var(--text-label);
 }
 
 .project-visual-ceei {
@@ -1080,14 +1102,14 @@ summary:focus-visible {
 
 .ceei-overlay span {
   font-family: Georgia, serif;
-  font-size: 42px;
+  font-size: 38px;
   letter-spacing: -0.03em;
 }
 
 .ceei-overlay p {
   max-width: 380px;
   margin: 88px 0 0;
-  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-size: var(--display-statement);
   font-weight: 560;
   letter-spacing: -0.045em;
   line-height: 1.02;
@@ -1109,7 +1131,7 @@ summary:focus-visible {
   background: rgba(4, 19, 46, 0.78);
   color: rgba(255, 255, 255, 0.86);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 8px;
+  font-size: var(--text-caption);
   letter-spacing: 0.04em;
 }
 
@@ -1138,12 +1160,12 @@ summary:focus-visible {
 .problems-list li > span {
   color: var(--accent);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: var(--text-label);
 }
 
 .problems-list h3 {
   margin: 0;
-  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  font-size: var(--display-problem);
   font-weight: 520;
   letter-spacing: -0.035em;
 }
@@ -1151,7 +1173,7 @@ summary:focus-visible {
 .problems-list p {
   margin: 0;
   color: var(--ink-secondary);
-  font-size: 14px;
+  font-size: var(--text-base);
   line-height: 1.6;
 }
 
@@ -1178,7 +1200,7 @@ summary:focus-visible {
   margin: 0 0 22px;
   color: var(--accent);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: var(--text-label);
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -1193,7 +1215,7 @@ summary:focus-visible {
 .toolbox-group li {
   padding: 7px 0;
   color: var(--ink-secondary);
-  font-size: 13px;
+  font-size: var(--text-sm);
 }
 
 .closing-section {
@@ -1219,7 +1241,7 @@ summary:focus-visible {
 .education-block h2 {
   max-width: 500px;
   margin: 0 0 14px;
-  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-size: var(--display-statement);
   font-weight: 500;
   letter-spacing: -0.04em;
   line-height: 1.05;
@@ -1236,14 +1258,14 @@ summary:focus-visible {
   margin-top: 68px;
   color: var(--ink-muted);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: var(--text-label);
 }
 
 .principles-block p {
   margin: 0;
   padding: 24px 0;
   border-bottom: 1px solid var(--line);
-  font-size: 19px;
+  font-size: var(--text-lg);
   letter-spacing: -0.02em;
   line-height: 1.45;
 }
@@ -1273,7 +1295,7 @@ summary:focus-visible {
   margin-top: 30px;
   color: color-mix(in srgb, var(--paper) 70%, transparent);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 10px;
+  font-size: var(--text-label);
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
@@ -1293,7 +1315,7 @@ summary:focus-visible {
 .contact-layout h2 {
   max-width: 760px;
   margin: 0;
-  font-size: clamp(3.7rem, 7vw, 6rem);
+  font-size: var(--display-contact);
   font-weight: 500;
   letter-spacing: -0.04em;
   line-height: 0.94;
@@ -1307,7 +1329,7 @@ summary:focus-visible {
   max-width: 440px;
   margin: 0;
   color: color-mix(in srgb, var(--paper) 70%, transparent);
-  font-size: 17px;
+  font-size: var(--text-body-lg);
   line-height: 1.6;
 }
 
@@ -1345,14 +1367,14 @@ summary:focus-visible {
 }
 
 .site-footer strong {
-  font-size: 15px;
+  font-size: var(--text-md);
 }
 
 .site-footer span,
 .site-footer p {
   color: var(--ink-muted);
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9px;
+  font-size: var(--text-label);
 }
 
 .site-footer span {
@@ -1363,7 +1385,7 @@ summary:focus-visible {
   display: flex;
   gap: 24px;
   color: var(--ink-secondary);
-  font-size: 12px;
+  font-size: var(--text-sm);
 }
 
 .footer-links a {
@@ -1491,7 +1513,7 @@ summary:focus-visible {
   .mobile-menu nav a {
     padding: 12px;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: var(--text-base);
   }
 
   .mobile-menu nav a:hover {
@@ -1504,12 +1526,12 @@ summary:focus-visible {
   }
 
   .hero h1 {
-    font-size: clamp(2.7rem, 12vw, 4.2rem);
+    font-size: clamp(2.6rem, 11vw, 3.9rem);
   }
 
   .hero-description {
     margin-top: 28px;
-    font-size: 16px;
+    font-size: var(--text-body);
   }
 
   .hero-actions {
@@ -1576,7 +1598,7 @@ summary:focus-visible {
   }
 
   .section-title-row h2 {
-    font-size: clamp(2.5rem, 12vw, 3.7rem);
+    font-size: clamp(2.35rem, 11vw, 3.45rem);
   }
 
   .about-layout {
@@ -1586,7 +1608,7 @@ summary:focus-visible {
   }
 
   .about-lead {
-    font-size: clamp(1.9rem, 8.5vw, 3rem);
+    font-size: clamp(1.85rem, 8vw, 2.85rem);
   }
 
   .experience-entry {
@@ -1632,7 +1654,7 @@ summary:focus-visible {
   }
 
   .project-copy h3 {
-    font-size: clamp(3.3rem, 17vw, 5rem);
+    font-size: clamp(3rem, 15vw, 4.6rem);
   }
 
   .project-hoyturnos .project-layout {
@@ -1641,7 +1663,7 @@ summary:focus-visible {
   }
 
   .project-hoyturnos .project-copy h3 {
-    font-size: clamp(4rem, 20vw, 6rem);
+    font-size: clamp(3.6rem, 17vw, 5.5rem);
   }
 
   .project-hoyturnos .project-visual {
@@ -1649,7 +1671,7 @@ summary:focus-visible {
   }
 
   .project-description {
-    font-size: 17px;
+    font-size: var(--text-body-lg);
   }
 
   .project-visual {
@@ -1769,7 +1791,7 @@ summary:focus-visible {
   }
 
   .contact-layout h2 {
-    font-size: clamp(3.1rem, 15vw, 5rem);
+    font-size: clamp(2.85rem, 14vw, 4.6rem);
   }
 
   .site-footer {
@@ -1831,6 +1853,10 @@ summary:focus-visible {
 
   .project-visual-paytor {
     height: 350px;
+  }
+
+  .booking-head {
+    font-size: var(--text-micro);
   }
 
   .pixo-orbit-one {
