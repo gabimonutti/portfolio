@@ -254,6 +254,7 @@ Actions are compact, direct, and visibly functional.
 - **Border:** One-pixel fine rules; stronger rules indicate active or interactive technical nodes.
 - **Internal Padding:** Dense technical nodes use 8–12px; content panels commonly use 18–34px.
 
+
 ### Navigation
 
 - **Desktop:** A 72px sticky, blurred paper header with centered 14px links, a circular GM monogram, external profile links, and a circular theme control. Secondary ink becomes teal on hover.
