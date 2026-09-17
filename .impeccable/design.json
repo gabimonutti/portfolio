@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-17T16:34:00.000Z",
+  "title": "Design System: Gabriel Monutti Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "paper-light": {
+        "role": "neutral",
+        "displayName": "Warm Paper — Light",
+        "canonical": "#f7f7f5",
+        "tonalRamp": ["oklch(15% 0.006 110)", "oklch(27% 0.006 110)", "oklch(39% 0.006 110)", "oklch(51% 0.006 110)", "oklch(63% 0.006 110)", "oklch(75% 0.006 110)", "oklch(87% 0.006 110)", "oklch(95% 0.006 110)"]
+      },
+      "surface-light": {
+        "role": "neutral",
+        "displayName": "Clean Surface — Light",
+        "canonical": "#ffffff",
+        "tonalRamp": ["oklch(15% 0.002 110)", "oklch(27% 0.002 110)", "oklch(39% 0.002 110)", "oklch(51% 0.002 110)", "oklch(63% 0.002 110)", "oklch(75% 0.002 110)", "oklch(87% 0.002 110)", "oklch(95% 0.002 110)"]
+      },
+      "surface-soft-light": {
+        "role": "neutral",
+        "displayName": "Soft Surface — Light",
+        "canonical": "#efefeb",
+        "tonalRamp": ["oklch(15% 0.008 105)", "oklch(27% 0.008 105)", "oklch(39% 0.008 105)", "oklch(51% 0.008 105)", "oklch(63% 0.008 105)", "oklch(75% 0.008 105)", "oklch(87% 0.008 105)", "oklch(95% 0.008 105)"]
+      },
+      "ink-light": {
+        "role": "neutral",
+        "displayName": "Primary Ink — Light",
+        "canonical": "#171717",
+        "tonalRamp": ["oklch(15% 0.003 110)", "oklch(27% 0.003 110)", "oklch(39% 0.003 110)", "oklch(51% 0.003 110)", "oklch(63% 0.003 110)", "oklch(75% 0.003 110)", "oklch(87% 0.003 110)", "oklch(95% 0.003 110)"]
+      },
+      "ink-secondary-light": {
+        "role": "neutral",
+        "displayName": "Secondary Ink — Light",
+        "canonical": "#5f625f",
+        "tonalRamp": ["oklch(15% 0.008 145)", "oklch(27% 0.008 145)", "oklch(39% 0.008 145)", "oklch(51% 0.008 145)", "oklch(63% 0.008 145)", "oklch(75% 0.008 145)", "oklch(87% 0.008 145)", "oklch(95% 0.008 145)"]
+      },
+      "ink-muted-light": {
+        "role": "neutral",
+        "displayName": "Muted Ink — Light",
+        "canonical": "#7c807c",
+        "tonalRamp": ["oklch(15% 0.009 145)", "oklch(27% 0.009 145)", "oklch(39% 0.009 145)", "oklch(51% 0.009 145)", "oklch(63% 0.009 145)", "oklch(75% 0.009 145)", "oklch(87% 0.009 145)", "oklch(95% 0.009 145)"]
+      },
+      "line-light": {
+        "role": "neutral",
+        "displayName": "Fine Rule — Light",
+        "canonical": "#d9dad4",
+        "tonalRamp": ["oklch(15% 0.011 110)", "oklch(27% 0.011 110)", "oklch(39% 0.011 110)", "oklch(51% 0.011 110)", "oklch(63% 0.011 110)", "oklch(75% 0.011 110)", "oklch(87% 0.011 110)", "oklch(95% 0.011 110)"]
+      },
+      "line-strong-light": {
+        "role": "neutral",
+        "displayName": "Strong Rule — Light",
+        "canonical": "#bfc2bc",
+        "tonalRamp": ["oklch(15% 0.012 135)", "oklch(27% 0.012 135)", "oklch(39% 0.012 135)", "oklch(51% 0.012 135)", "oklch(63% 0.012 135)", "oklch(75% 0.012 135)", "oklch(87% 0.012 135)", "oklch(95% 0.012 135)"]
+      },
+      "accent-light": {
+        "role": "primary",
+        "displayName": "Deep Teal Signal",
+        "canonical": "#065f55",
+        "tonalRamp": ["oklch(15% 0.07 180)", "oklch(27% 0.07 180)", "oklch(39% 0.07 180)", "oklch(51% 0.07 180)", "oklch(63% 0.07 180)", "oklch(75% 0.07 180)", "oklch(87% 0.07 180)", "oklch(95% 0.07 180)"]
+      },
+      "accent-soft-light": {
+        "role": "primary",
+        "displayName": "Soft Teal Signal Field — Light",
+        "canonical": "#dfeeea",
+        "tonalRamp": ["oklch(15% 0.025 180)", "oklch(27% 0.025 180)", "oklch(39% 0.025 180)", "oklch(51% 0.025 180)", "oklch(63% 0.025 180)", "oklch(75% 0.025 180)", "oklch(87% 0.025 180)", "oklch(95% 0.025 180)"]
+      },
+      "accent-contrast-light": {
+        "role": "primary",
+        "displayName": "Signal Contrast — Light",
+        "canonical": "#f5fffc",
+        "tonalRamp": ["oklch(15% 0.014 180)", "oklch(27% 0.014 180)", "oklch(39% 0.014 180)", "oklch(51% 0.014 180)", "oklch(63% 0.014 180)", "oklch(75% 0.014 180)", "oklch(87% 0.014 180)", "oklch(95% 0.014 180)"]
+      },
+      "selection-light": {
+        "role": "primary",
+        "displayName": "Selection Wash — Light",
+        "canonical": "#b7d9d2",
+        "tonalRamp": ["oklch(15% 0.04 180)", "oklch(27% 0.04 180)", "oklch(39% 0.04 180)", "oklch(51% 0.04 180)", "oklch(63% 0.04 180)", "oklch(75% 0.04 180)", "oklch(87% 0.04 180)", "oklch(95% 0.04 180)"]
+      },
+      "paper-dark": {
+        "role": "neutral",
+        "displayName": "Warm Paper — Dark",
+        "canonical": "#111312",
+        "tonalRamp": ["oklch(15% 0.008 145)", "oklch(27% 0.008 145)", "oklch(39% 0.008 145)", "oklch(51% 0.008 145)", "oklch(63% 0.008 145)", "oklch(75% 0.008 145)", "oklch(87% 0.008 145)", "oklch(95% 0.008 145)"]
+      },
+      "surface-dark": {
+        "role": "neutral",
+        "displayName": "Clean Surface — Dark",
+        "canonical": "#181b19",
+        "tonalRamp": ["oklch(15% 0.01 145)", "oklch(27% 0.01 145)", "oklch(39% 0.01 145)", "oklch(51% 0.01 145)", "oklch(63% 0.01 145)", "oklch(75% 0.01 145)", "oklch(87% 0.01 145)", "oklch(95% 0.01 145)"]
+      },
+      "surface-soft-dark": {
+        "role": "neutral",
+        "displayName": "Soft Surface — Dark",
+        "canonical": "#202421",
+        "tonalRamp": ["oklch(15% 0.012 145)", "oklch(27% 0.012 145)", "oklch(39% 0.012 145)", "oklch(51% 0.012 145)", "oklch(63% 0.012 145)", "oklch(75% 0.012 145)", "oklch(87% 0.012 145)", "oklch(95% 0.012 145)"]
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Primary Ink — Dark",
+        "canonical": "#f2f2ef",
+        "tonalRamp": ["oklch(15% 0.006 110)", "oklch(27% 0.006 110)", "oklch(39% 0.006 110)", "oklch(51% 0.006 110)", "oklch(63% 0.006 110)", "oklch(75% 0.006 110)", "oklch(87% 0.006 110)", "oklch(95% 0.006 110)"]
+      },
+      "ink-secondary-dark": {
+        "role": "neutral",
+        "displayName": "Secondary Ink — Dark",
+        "canonical": "#aeb2ad",
+        "tonalRamp": ["oklch(15% 0.011 145)", "oklch(27% 0.011 145)", "oklch(39% 0.011 145)", "oklch(51% 0.011 145)", "oklch(63% 0.011 145)", "oklch(75% 0.011 145)", "oklch(87% 0.011 145)", "oklch(95% 0.011 145)"]
+      },
+      "ink-muted-dark": {
+        "role": "neutral",
+        "displayName": "Muted Ink — Dark",
+        "canonical": "#828782",
+        "tonalRamp": ["oklch(15% 0.012 145)", "oklch(27% 0.012 145)", "oklch(39% 0.012 145)", "oklch(51% 0.012 145)", "oklch(63% 0.012 145)", "oklch(75% 0.012 145)", "oklch(87% 0.012 145)", "oklch(95% 0.012 145)"]
+      },
+      "line-dark": {
+        "role": "neutral",
+        "displayName": "Fine Rule — Dark",
+        "canonical": "#2c312e",
+        "tonalRamp": ["oklch(15% 0.014 145)", "oklch(27% 0.014 145)", "oklch(39% 0.014 145)", "oklch(51% 0.014 145)", "oklch(63% 0.014 145)", "oklch(75% 0.014 145)", "oklch(87% 0.014 145)", "oklch(95% 0.014 145)"]
+      },
+      "line-strong-dark": {
+        "role": "neutral",
+        "displayName": "Strong Rule — Dark",
+        "canonical": "#424944",
+        "tonalRamp": ["oklch(15% 0.016 145)", "oklch(27% 0.016 145)", "oklch(39% 0.016 145)", "oklch(51% 0.016 145)", "oklch(63% 0.016 145)", "oklch(75% 0.016 145)", "oklch(87% 0.016 145)", "oklch(95% 0.016 145)"]
+      },
+      "accent-dark": {
+        "role": "primary",
+        "displayName": "Luminous Teal Signal",
+        "canonical": "#65b8ac",
+        "tonalRamp": ["oklch(15% 0.07 180)", "oklch(27% 0.07 180)", "oklch(39% 0.07 180)", "oklch(51% 0.07 180)", "oklch(63% 0.07 180)", "oklch(75% 0.07 180)", "oklch(87% 0.07 180)", "oklch(95% 0.07 180)"]
+      },
+      "accent-soft-dark": {
+        "role": "primary",
+        "displayName": "Soft Teal Signal Field — Dark",
+        "canonical": "#183b36",
+        "tonalRamp": ["oklch(15% 0.04 180)", "oklch(27% 0.04 180)", "oklch(39% 0.04 180)", "oklch(51% 0.04 180)", "oklch(63% 0.04 180)", "oklch(75% 0.04 180)", "oklch(87% 0.04 180)", "oklch(95% 0.04 180)"]
+      },
+      "accent-contrast-dark": {
+        "role": "primary",
+        "displayName": "Signal Contrast — Dark",
+        "canonical": "#0d1715",
+        "tonalRamp": ["oklch(15% 0.025 180)", "oklch(27% 0.025 180)", "oklch(39% 0.025 180)", "oklch(51% 0.025 180)", "oklch(63% 0.025 180)", "oklch(75% 0.025 180)", "oklch(87% 0.025 180)", "oklch(95% 0.025 180)"]
+      },
+      "selection-dark": {
+        "role": "primary",
+        "displayName": "Selection Wash — Dark",
+        "canonical": "#285b53",
+        "tonalRamp": ["oklch(15% 0.05 180)", "oklch(27% 0.05 180)", "oklch(39% 0.05 180)", "oklch(51% 0.05 180)", "oklch(63% 0.05 180)", "oklch(75% 0.05 180)", "oklch(87% 0.05 180)", "oklch(95% 0.05 180)"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Direct hero statements with tight tracking and near-solid leading."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Major section openings and contact statements."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Company names and compact content titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Comfortably led explanatory and supporting copy."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "Compact, confident calls to action."
+      },
+      "label": {
+        "displayName": "Machine Label",
+        "purpose": "Operational metadata, status, sequence, time, and technical labels only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "technical-lift",
+        "value": "0 12px 28px -22px color-mix(in srgb, var(--ink) 38%, transparent)",
+        "purpose": "Minimal separation for system nodes over the technical grid."
+      },
+      {
+        "name": "floating-panel",
+        "value": "0 24px 60px -30px rgba(0, 20, 17, 0.65)",
+        "purpose": "Localized overlap for the booking panel on project imagery."
+      },
+      {
+        "name": "device-lift",
+        "value": "0 30px 70px -34px rgba(48, 32, 140, 0.8)",
+        "purpose": "Project-local depth for overlapping phone hardware."
+      },
+      {
+        "name": "popover-lift",
+        "value": "0 20px 50px -30px color-mix(in srgb, var(--ink) 45%, transparent)",
+        "purpose": "Separates mobile navigation from the sticky header."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-standard",
+        "value": "180ms ease",
+        "purpose": "Color, border, background, opacity, and skip-link state changes."
+      },
+      {
+        "name": "movement-spring",
+        "value": "180ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Short action lifts and directional icon movement."
+      },
+      {
+        "name": "icon-transform",
+        "value": "260ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Theme icon rotation and scale."
+      },
+      {
+        "name": "system-signal",
+        "value": "5.5s linear infinite; second signal delayed 1.8s",
+        "purpose": "Slow signal travel through the hero topology; removed under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-collapse",
+        "value": "1080px"
+      },
+      {
+        "name": "mobile-layout",
+        "value": "800px"
+      },
+      {
+        "name": "compact-mobile",
+        "value": "480px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The compact teal call to action used for the strongest next step.",
+      "html": "<a class=\"ds-primary-action\" href=\"#\">View my work <svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 5v14\"/><path d=\"m19 12-7 7-7-7\"/></svg></a>",
+      "css": ".ds-primary-action { display:inline-flex; min-height:50px; align-items:center; justify-content:center; gap:10px; padding:13px 18px; border:1px solid var(--accent); border-radius:8px; background:var(--accent); color:var(--accent-contrast); font:620 14px/1.2 var(--font-geist),sans-serif; text-decoration:none; transition:transform 180ms cubic-bezier(0.16,1,0.3,1),background 180ms ease; } .ds-primary-action svg { width:16px; height:16px; } .ds-primary-action:hover { transform:translateY(-2px); background:color-mix(in srgb,var(--accent) 88%,var(--ink)); } .ds-primary-action:focus-visible { outline:2px solid var(--accent); outline-offset:4px; } .ds-primary-action:active { transform:translateY(0); }"
+    },
+    {
+      "name": "Text Action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "A quieter underlined action for contact and external navigation.",
+      "html": "<a class=\"ds-text-action\" href=\"#\">Get in touch <svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 17 17 7\"/><path d=\"M7 7h10v10\"/></svg></a>",
+      "css": ".ds-text-action { display:inline-flex; min-height:46px; align-items:center; gap:8px; border-bottom:1px solid var(--line-strong); color:var(--ink); font:580 14px/1.2 var(--font-geist),sans-serif; text-decoration:none; transition:color 180ms ease,border-color 180ms ease; } .ds-text-action svg { width:16px; height:16px; transition:transform 180ms cubic-bezier(0.16,1,0.3,1); } .ds-text-action:hover { border-color:var(--accent); color:var(--accent); } .ds-text-action:hover svg { transform:translate(3px,-3px); } .ds-text-action:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }"
+    },
+    {
+      "name": "Technology Chip",
+      "kind": "chip",
+      "refersTo": "technology-chip",
+      "description": "A non-interactive machine label for technologies used in context.",
+      "html": "<span class=\"ds-technology-chip\">TypeScript</span>",
+      "css": ".ds-technology-chip { display:inline-block; padding:6px 9px; border:1px solid var(--line); border-radius:5px; background:transparent; color:var(--ink-secondary); font:500 9px/1.3 var(--font-geist-mono),monospace; letter-spacing:0.02em; transition:border-color 180ms ease,background 180ms ease; } .ds-technology-chip:hover { border-color:var(--line-strong); background:var(--surface-soft); }"
+    },
+    {
+      "name": "Circular Theme Control",
+      "kind": "button",
+      "refersTo": "circular-control",
+      "description": "A 42px circular utility control for theme switching.",
+      "html": "<button class=\"ds-theme-control\" type=\"button\" aria-label=\"Toggle color theme\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41\"/></svg></button>",
+      "css": ".ds-theme-control { display:grid; width:42px; height:42px; place-items:center; border:1px solid var(--line); border-radius:50%; background:transparent; color:var(--ink); cursor:pointer; transition:background 180ms ease,border-color 180ms ease; } .ds-theme-control svg { width:16px; height:16px; } .ds-theme-control:hover { border-color:var(--line-strong); background:var(--surface-soft); } .ds-theme-control:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }"
+    },
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-link",
+      "description": "A restrained horizontal navigation whose links yield to the page content.",
+      "html": "<nav class=\"ds-navigation\" aria-label=\"Primary navigation\"><a href=\"#\">Work</a><a href=\"#\">About</a><a href=\"#\">Stack</a><a href=\"#\">Contact</a></nav>",
+      "css": ".ds-navigation { display:flex; align-items:center; gap:30px; font:400 14px/1.2 var(--font-geist),sans-serif; } .ds-navigation a { min-height:40px; align-content:center; color:var(--ink-secondary); text-decoration:none; transition:color 180ms ease; } .ds-navigation a:hover { color:var(--accent); } .ds-navigation a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }"
+    },
+    {
+      "name": "System Node",
+      "kind": "custom",
+      "refersTo": "technical-panel",
+      "description": "The signature topology node for products, operations, backend, APIs, and data.",
+      "html": "<div class=\"ds-system-node\"><span>INPUT 01</span><strong>PRODUCTS</strong><small>web · mobile</small></div>",
+      "css": ".ds-system-node { display:flex; width:126px; min-height:70px; flex-direction:column; justify-content:center; padding:10px 12px; border:1px solid var(--line-strong); border-radius:7px; background:var(--surface); color:var(--ink); box-shadow:0 12px 28px -22px color-mix(in srgb,var(--ink) 38%,transparent); } .ds-system-node span { margin-bottom:6px; color:var(--accent); font:500 7px/1.3 var(--font-geist-mono),monospace; letter-spacing:0.08em; } .ds-system-node strong { font:600 11px/1.3 var(--font-geist-mono),monospace; letter-spacing:0.06em; } .ds-system-node small { margin-top:3px; color:var(--ink-muted); font:400 9px/1.3 var(--font-geist),sans-serif; }"
+    },
+    {
+      "name": "Section Rule Header",
+      "kind": "custom",
+      "refersTo": "section-rule-header",
+      "description": "A fine-rule section opening that pairs a large title with concise context.",
+      "html": "<div class=\"ds-section-header\"><h2>Experience</h2><p>The work behind the stack: systems, responsibilities, and problems solved.</p></div>",
+      "css": ".ds-section-header { display:grid; grid-template-columns:minmax(0,7fr) minmax(260px,5fr); gap:48px; align-items:end; padding-top:26px; border-top:1px solid var(--line); color:var(--ink); } .ds-section-header h2 { margin:0; font:520 clamp(2.6rem,5vw,4.75rem)/1 var(--font-geist),sans-serif; letter-spacing:-0.04em; } .ds-section-header p { max-width:520px; margin:0 0 5px; color:var(--ink-secondary); font:400 15px/1.6 var(--font-geist),sans-serif; }"
+    },
+    {
+      "name": "Current Status Register",
+      "kind": "custom",
+      "refersTo": "status-register",
+      "description": "A ruled evidence register for current role, location, and focus.",
+      "html": "<div class=\"ds-status-register\"><span>CURRENTLY</span><strong>Backend Engineer @ Wuala</strong><small>ERP ↔ e-commerce integrations</small></div>",
+      "css": ".ds-status-register { display:grid; min-height:112px; align-content:center; padding:24px 34px; border:1px solid var(--line); background:var(--surface); color:var(--ink); } .ds-status-register span,.ds-status-register small { color:var(--ink-muted); font:400 10px/1.3 var(--font-geist-mono),monospace; } .ds-status-register span { margin-bottom:8px; text-transform:uppercase; } .ds-status-register strong { margin-bottom:4px; font:600 14px/1.3 var(--font-geist),sans-serif; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Connected Engineering Log",
+    "overview": "The portfolio is a warm, editorial systems record: calm paper, near-black ink, fine rules, and sparse teal signals organize real evidence without turning it into a résumé dashboard. Its density comes from traces, registers, system nodes, and large project chapters rather than generic cards or ornamental decoration.\n\nThe world combines a human reading rhythm with the precision of an observability viewer. Large Geist headlines state the story directly; Geist Mono appears only where content behaves like metadata, status, sequence, time, or machine output. Light and dark modes swap semantic roles without changing hierarchy, and real product imagery is framed as evidence inside authored technical compositions.",
+    "keyCharacteristics": [
+      "Asymmetric 7/5 desktop compositions that collapse into one clear reading column.",
+      "Warm neutral surfaces structured by one-pixel rules and restrained tonal separation.",
+      "Deep teal reserved for actions, active system nodes, status, and trace markers.",
+      "Large variable-weight grotesk headlines paired with compact machine metadata.",
+      "Real project imagery presented through booking, phone, window, and delivery-trace frames.",
+      "Brief, purposeful motion with a complete reduced-motion fallback."
+    ],
+    "rules": [
+      {
+        "name": "The Sparse Signal Rule",
+        "body": "Teal identifies action, status, sequence, or system focus; it does not become a decorative field across ordinary content.",
+        "section": "colors"
+      },
+      {
+        "name": "The Semantic Theme Rule",
+        "body": "Dark mode swaps the paper, surface, ink, rule, and accent roles together; component hierarchy and accent rarity remain unchanged.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Voice Rule",
+        "body": "Geist speaks to people; Geist Mono speaks for the system. Do not set ordinary prose or display headlines in mono.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tight-Scale Rule",
+        "body": "Large headings use negative tracking and near-solid line height; body copy restores open leading for legibility.",
+        "section": "typography"
+      },
+      {
+        "name": "The Reading-Order Rule",
+        "body": "Responsive collapse always preserves narrative before visual evidence, even when desktop chapters alternate.",
+        "section": "layout"
+      },
+      {
+        "name": "The Structural Depth Rule",
+        "body": "A shadow must explain an overlap or floating layer; ordinary sections, lists, and resting actions remain flat.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Softened-Technical Rule",
+        "body": "Use small radii to make technical panels approachable, but do not turn content regions into pill-shaped containers.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Circle-With-Purpose Rule",
+        "body": "Circular geometry is reserved for controls, identity marks, trace points, status, and diagram flow.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** use teal only for actions, system state, sequence, and focus.",
+      "**Do** structure dense evidence with fine rules, trace markers, and aligned registers.",
+      "**Do** keep body copy comfortably led and constrained while headings stay tight and direct.",
+      "**Do** use real project imagery inside an authored evidence frame with accurate alternative text.",
+      "**Do** preserve semantic theme roles, visible keyboard focus, touch-sized controls, and reduced-motion behavior."
+    ],
+    "donts": [
+      "**Don't** turn project chapters, experience entries, or toolbox groups into generic floating cards.",
+      "**Don't** use Geist Mono for ordinary prose or expressive display copy.",
+      "**Don't** add decorative shadows, neon effects, logo walls, skill percentages, or excessive animation.",
+      "**Don't** import a project's local brand palette into the portfolio's global token system.",
+      "**Don't** hide or horizontally scroll core evidence on narrow screens; simplify and stack it."
+    ]
+  }
+}
